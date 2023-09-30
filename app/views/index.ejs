@@ -1,17 +1,26 @@
 <%- include ('partials/header.ejs') %>
 <%- include ('partials/main_nav.ejs') %>
-   
-
-<main class="container">
-  <div class="jumbotron">
-    <h1 class="display-4">Welcome to <%= title %> page</h1>
-    <p>Hello there</p>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <p>Discover my projects and services; this little colorful world full of my favorite characters, <br>
+          along with some of my own...</p>
+        <a href="/about">About Me</a><br>
+        <a href="/contact">Contact form</a><br>
+        <a href="/products">My projects</a><br>
+        <a href="/services">services</a>
+    </header>
+    <aside>
+      <div class="image-container">
+        <img src="/img/Home.jpg" alt="Me" width="250px" height="300px" >
     </div>
-    </main>
-    <!--bottom nav-->
-   
-   
-      <!--script section-->
-      <%- include ('partials/bottom_nav.ejs') %>
-      <%- include ('partials/footer.ejs') %>
+    </aside>
+    <section>
+        <h2>Mission Statement</h2>
+        <p>"I aspire to be a giver. A giver of love, a giver a good vibes and true strength."<br>
+          Just a regular anime artist trying to share his artworks...
+        </p>
+    </section>
+
+<%- include ('partials/bottom_nav.ejs') %>
+<%- include ('partials/footer.ejs') %>
    
