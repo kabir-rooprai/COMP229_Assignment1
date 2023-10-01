@@ -4,13 +4,33 @@
 
 <main class="container">
   <div class="jumbotron">
-    <h1 class="display-4">Welcome to <%= title %> page</h1>
+    <h2 class="display-4">Welcome to <%= title %> page<br>
+    An introduction to the services provided by me...    </h2>
     </div>
     </main>
-    <!--bottom nav-->
-   
-   
-      <!--script section-->
+    <table cellspacing="2px" cellpadding="10px">
+      <tr>
+        <td>
+          <h3>
+            <b>Digital anime artworks</b>
+          </h3>
+        </td>
+        <td>
+          <img src="/img/ZeroTwo.png" alt="Digital artworks" width="520px" height="340px">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <h3>
+            <b>Traditional anime artworks</b>
+          </h3>
+        </td>
+        <td>
+          <img src="/img/NVS.jpg" alt="Traditional artworks" width="400px" height="520px">
+        </td>
+      </tr>
+
+    </table>
       <%- include ('partials/bottom_nav.ejs') %>
       <%- include ('partials/footer.ejs') %>
    
